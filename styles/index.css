@@ -1,0 +1,51 @@
+
+
+/* Main */
+.portada{
+    display: flex;
+    justify-content: center;
+}
+
+/* .portada img{
+    width: 80vw;
+} */
+
+/* Carousel */
+.carousel{
+    width: 80vw;
+}
+
+.carousel img{
+    height: 88vh;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #9c020a;
+    border: solid black 2px;
+    border-radius: 15px;
+    width: 50px;
+    padding: 20px;
+}
+
+.carousel-caption{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    margin: auto;
+}
+
+/* Accordion */
+
+.accordion{
+    width: 70vw;
+    margin: 40px auto;
+}
+
+.accordion h2{
+    text-align: center;
+}
+
+.accordion-button, .accordion-button:not(.collapsed){
+    background-color: #9d020a;
+    color: white;
+}
